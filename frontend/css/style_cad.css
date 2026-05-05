@@ -1,0 +1,15 @@
+label, #resposta{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+}
+
+input,button{
+    background-color: black;
+    color: green;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 12px;
+}

@@ -1,0 +1,39 @@
+.princ_tabela{
+    display: flex;
+    flex-direction: column;
+}
+.tabela{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+table, th,td{
+    border: solid 1px white;
+    border-collapse: collapse;       
+}
+th{
+    font-weight: bolder;
+}
+th,td{
+    color: white;
+    padding: 4px 4px;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI'; 
+}
+
+label, #resposta{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+}
+
+input,button{
+    background-color: black;
+    color: green;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 12px;
+}
