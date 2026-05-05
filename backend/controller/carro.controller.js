@@ -15,6 +15,7 @@ const cadastrar = async (req, res) => {
     }
 
     const valores = { nome, marca, categoria, ano, precoFab, precoVend }
+    console.log(valores)
 
     try {
         await Carro.create(valores)

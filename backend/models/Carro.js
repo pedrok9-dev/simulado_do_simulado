@@ -27,6 +27,10 @@ const Carro = db.define('carro',{
     precoFab: {
         type: DataTypes.STRING(100),
         allowNull: false
+    },
+    precoVend: {
+        type: DataTypes.STRING(100),
+        allowNull: false
     }
 },{
     timestamps: false
